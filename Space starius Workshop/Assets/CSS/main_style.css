@@ -1,0 +1,126 @@
+/* RESET THE BODY */
+html, body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+header {
+	text-align: center;
+
+	width: 100%;
+	height: 100vh;
+
+	background-color: rgba(48, 48, 54, 0.6);
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-position: center;
+	background-image: url('../IMG/header-main.jpg');
+}
+
+header-middle {
+	color:  white;
+
+	transform: translate(-50%, -50%);
+	position: absolute;
+	left:  50%;
+	top: 45%;
+}
+
+header page-title {
+	margin: 0px;
+	padding: 0px;
+
+	font-size: 40px;
+}
+
+header page-slogan {
+	font-size: 20px;
+	position: relative;
+	top: -10px;
+	letter-spacing: 10px;
+}
+
+header online-count {
+	margin: 0px;
+
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+
+	color: white;
+
+	font-size: 25px;
+}
+
+.comm-col-1 {
+	color: var(--comm-col-blue);
+	margin: 0px;
+	padding: 0px;
+}
+
+.comm-col-2 {
+	color: var(--comm-col-white) !important;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav-title {
+	font-size: 30px;
+	z-index: 10;
+	color: white;
+}
+
+.player-id {
+	color: red;
+}
+
+
+ /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.collapse-container {
+	position: relative;
+	transform: translate(-50%);
+	width: 600px;
+	left: 50%;
+}
+
+.items {
+	width: 100%;
+	align-content: center;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 20px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+} 
+
+.success-msg {
+	color: var(--comm-col-success);
+}
+
+.error-msg {
+	color: var(--comm-col-failed);
+}
